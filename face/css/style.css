@@ -1,0 +1,58 @@
+body {
+    background-color:#222;
+    overflow:scroll;
+    overflow-x:hidden
+}
+
+#container {
+    background-image:url(../img/linkbg.gif);
+    width:500px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:10px
+}
+
+#container1 {
+    width:500px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto
+}
+
+.face {
+    z-index:-1;
+    position:absolute;
+    max-width:500px
+}
+
+.links {
+    z-index:0;
+    position:relative;
+    width:auto
+}
+
+.snapchat {
+    z-index:-1;
+    position:absolute;
+    width:500px
+}
+
+h1 {
+    font-family:'Roboto',sans-serif;
+    text-align:center;
+    font-size:300%;
+    line-height:10%;
+    margin-top:15px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+p {
+    font-family:'Roboto',sans-serif;
+    text-align:center;
+    font-size:80%;
+    margin-top:15px;
+    margin-left:auto;
+    margin-right:auto
+}
