@@ -1,58 +1,89 @@
 body {
-    background-color:#222;
-    overflow:scroll;
-    overflow-x:hidden
+  background-color: #222;
+  overflow: scroll;
+  overflow-x: hidden
 }
 
 #container {
-    background-image:url(../img/linkbg.gif);
-    width:500px;
-    margin-top:auto;
-    margin-left:auto;
-    margin-right:auto;
-    padding-bottom:10px
+  background-image: url(../img/linkbg.gif);
+  width: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px
 }
 
 #container1 {
-    width:500px;
-    margin-top:auto;
-    margin-left:auto;
-    margin-right:auto
+  width: 500px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto
 }
 
-.face {
-    z-index:-1;
-    position:absolute;
-    max-width:500px
+
+/* .face {
+  z-index: -1;
+  position: absolute;
+  max-width: 500px
 }
 
 .links {
-    z-index:0;
-    position:relative;
-    width:auto
+  z-index: 0;
+  position: relative;
+  width: auto
 }
 
 .snapchat {
-    z-index:-1;
-    position:absolute;
-    width:500px
+  z-index: -1;
+  position: absolute;
+  width: 500px
+} */
+
+
+/* unvisited link */
+
+a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+/* visited link */
+
+a:visited {
+  color: #FFFFFF;
+}
+
+
+/* mouse over link */
+
+a:hover {
+  color: #00d2ff;
+}
+
+
+/* selected link */
+
+a:active {
+  color: #FFFFFF;
 }
 
 h1 {
-    font-family:'Roboto',sans-serif;
-    text-align:center;
-    font-size:300%;
-    line-height:10%;
-    margin-top:15px;
-    margin-left:auto;
-    margin-right:auto
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 300%;
+  line-height: 10%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto
 }
 
 p {
-    font-family:'Roboto',sans-serif;
-    text-align:center;
-    font-size:80%;
-    margin-top:15px;
-    margin-left:auto;
-    margin-right:auto
+  font-family: 'Roboto', monospace;
+  text-align: center;
+  font-size: 100%;
+  color: #FFFFFF;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto
 }
