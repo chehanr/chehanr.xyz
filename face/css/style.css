@@ -8,7 +8,6 @@
 
 .center {
     padding: 25% 0;
-    text-align: center;
 }
 
 .parallax {
@@ -18,8 +17,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
+
+
+/* TODO: add better paralax effect (doesn't work on mobile). */
 
 body,
 html {
