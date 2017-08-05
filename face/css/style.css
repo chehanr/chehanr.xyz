@@ -6,6 +6,15 @@
     transform: translate(-50%, -50%);
 }
 
+
+/* Temp fix for mobiles.  */
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-image: url(../img/bg_bw.jpg);
+    }
+}
+
 .center {
     padding: 25% 0;
 }
